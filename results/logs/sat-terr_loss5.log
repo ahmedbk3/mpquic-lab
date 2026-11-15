@@ -1,0 +1,32 @@
+*** Error setting resource limits. Mininet's performance may be affected.
+(50.00Mbit 25ms delay 5.00000% loss) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(50.00Mbit 25ms delay 5.00000% loss) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 180ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 180ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+*** Configuring hosts
+h1 h2 
+*** Starting controller
+c0 
+*** Starting 2 switches
+sA (50.00Mbit 25ms delay 5.00000% loss) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+sB (100.00Mbit 180ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+...(50.00Mbit 25ms delay 5.00000% loss) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 180ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+
+*** Waiting for switches to connect
+sA sB 
+== S4 baseline: single-path QUIC over path 0 ==
+run 0: 52428800 bytes in 59.63 s = 7.0 Mbps [complete]
+run 1: 52428800 bytes in 71.67 s = 5.9 Mbps [complete]
+run 2: 52428800 bytes in 69.96 s = 6.0 Mbps [complete]
+run 3: 52428800 bytes in 62.32 s = 6.7 Mbps [complete]
+run 4: 52428800 bytes in 80.14 s = 5.2 Mbps [complete]
+*** Stopping 1 controllers
+c0 
+*** Stopping 4 links
+....
+*** Stopping 2 switches
+sA sB 
+*** Stopping 2 hosts
+h1 h2 
+*** Done

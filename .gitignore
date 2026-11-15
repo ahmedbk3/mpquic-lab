@@ -1,0 +1,15 @@
+# Docker image archive
+*.tar.gz
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Generated demo state
+demo_ticket_store.bin
+demo_token_store.bin
+
+# Virtual environments
+venv/
+.venv/
+handover/

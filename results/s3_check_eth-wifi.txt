@@ -1,0 +1,6 @@
+== S3 checks ==
+path 0: RTT expected about 4 ms, measured 4.392 ms, loss 0% [PASS]
+path 1: RTT expected about 24 ms, measured 24.405 ms, loss 0% [PASS]
+path 0: link 1000 Mbps, iperf3 TCP 305.3 Mbps
+path 1: link 150 Mbps, iperf3 TCP 47.2 Mbps
+cut sA-h2: path 0 loss 100%, path 1 loss 0% [PASS]

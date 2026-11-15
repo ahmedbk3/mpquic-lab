@@ -1,0 +1,9 @@
+Replacement measurement
+Scenario: eth-wifi
+Path 0 packet loss: 5%
+File size: 50 MiB
+Run: replacement for original incomplete run 3
+Received: 52428800 bytes
+Duration: 3.66 seconds
+Throughput: 114.61 Mbps
+Status: complete
